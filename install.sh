@@ -11,6 +11,7 @@ read -p "would you like to apply my theming? [y/n]" yn
 case $yn in
 	[yY] )  echo "Proceeding with instalation..";
 		stow $PKGS
+		stow .
 		;;
 	[nN] )echo "Instalation cancelled, exiting...";
 		;;
