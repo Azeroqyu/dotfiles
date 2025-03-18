@@ -6,9 +6,9 @@ A simple configuration and theming based on [catppuccin](https://github.com/catp
 * Hyprland
 * Starship with this [config](https://gist.github.com/8KCoffeeWizard/668f33164c981c5cc39978d6a8e91308)
 * Waybar
-#Dependencies
-* [Gnu stow]()
-#### Installation
+###Dependencies
+* Gnu stow
+##### Installation
 ```git clone https://github.com/Azeroqyu/dotfiles```
 then 
 ```cd dotfiles```
@@ -20,6 +20,6 @@ then run the script
 
 
 
-##### Features 
+###### Features 
 * Nvim configured for java,c,rust,python and LaTeX
 * minimal and simple hyprland config 
