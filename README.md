@@ -8,18 +8,22 @@ A simple configuration and theming based on [catppuccin](https://github.com/catp
 * Waybar
 ### Dependencies
 * Gnu stow
-##### Installation
-```git clone https://github.com/Azeroqyu/dotfiles```
+#### Installation
+To install my dotfiles clone this repo in your home directory:
+
+    git clone https://github.com/Azeroqyu/dotfiles
 then 
-```cd dotfiles```
-you can use the simple install script provided
-``` chmod -x install.sh```
-then run the script
-```./install.sh```
+
+    cd dotfiles
+you can use the simple install script provided:
+
+    chmod -x install.sh
+ then run the cript
+ 
+    ./install.sh
 
 
 
-
-###### Features 
+##### Features 
 * Nvim configured for java,c,rust,python and LaTeX
 * minimal and simple hyprland config 
