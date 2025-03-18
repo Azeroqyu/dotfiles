@@ -1,0 +1,7 @@
+general.import = [
+  "~/.config/catppuccin-mocha.toml"
+]
+[font.normal]
+family = "FiraCode NerdFont"
+[window]
+opacity = 1
