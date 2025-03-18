@@ -6,9 +6,22 @@ A simple configuration and theming based on [catppuccin](https://github.com/catp
 * Hyprland
 * Starship with this [config](https://gist.github.com/8KCoffeeWizard/668f33164c981c5cc39978d6a8e91308)
 * Waybar
-### Installation
-To install my dotfiles you can use the simple shell script provided 
-```chmod -x install.sh ```
-#### Features 
+#Dependencies
+* [Gnu stow]()
+#### Installation
+    To install my dotfiles clone this repo in your home directory:
+
+```git clone https://github.com/Azeroqyu/dotfiles```
+then 
+```cd dotfiles```
+you can use the simple install script provided
+``` chmod -x install.sh```
+then run the script
+```./install.sh```
+
+
+
+
+##### Features 
 * Nvim configured for java,c,rust,python and LaTeX
 * minimal and simple hyprland config 
