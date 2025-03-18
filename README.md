@@ -9,8 +9,6 @@ A simple configuration and theming based on [catppuccin](https://github.com/catp
 #Dependencies
 * [Gnu stow]()
 #### Installation
-    To install my dotfiles clone this repo in your home directory:
-
 ```git clone https://github.com/Azeroqyu/dotfiles```
 then 
 ```cd dotfiles```
