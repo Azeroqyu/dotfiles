@@ -120,7 +120,7 @@ window#waybar.chromium {
         color: @crust;
     }
 }
-battery.bat1 {
+battery.bat0 {
     border-bottom: 2px solid #FFFFFF;
 }
 #battery.critical:not(.charging) {

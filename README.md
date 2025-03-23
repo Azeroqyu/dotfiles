@@ -18,7 +18,7 @@ then
 you can use the simple install script provided:
 
     chmod -x install.sh
- then run the cript
+ then run the script
  
     ./install.sh
 
@@ -27,3 +27,7 @@ you can use the simple install script provided:
 ##### Features 
 * Nvim configured for java,c,rust,python and LaTeX
 * minimal and simple hyprland config 
+
+###### To do:
+* add my .bashrc
+* finish dependencies documentation

@@ -7,7 +7,7 @@ echo "installing dependencies"
 yay -S --noconfirm --needed - < dependencies.list
 	
 #applying the theme
-read -p "would you like to apply my theming? [y/n]" yn
+read -p "would you like to apply my theming? [Y/n]" yn
 case $yn in
 	[yY] )  echo "Proceeding with instalation..";
 		stow $PKGS

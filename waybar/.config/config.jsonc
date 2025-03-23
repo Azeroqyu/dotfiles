@@ -20,6 +20,7 @@
         "network",
         "power-profiles-daemon",
         "battery",
+        "backlight-slider",
         "battery#bat1",
         "tray",
         "custom/power"
@@ -41,6 +42,12 @@
     //         "default": ""
     //     }
     // },
+    "backlight/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal",
+    "device": "intel_backlight"
+},
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
