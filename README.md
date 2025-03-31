@@ -25,9 +25,8 @@ you can use the simple install script provided:
 
 
 ##### Features 
-* Nvim configured for java,c,rust,python and LaTeX
+* Nvim configured for java, c/c++, rust, python and LaTeX
 * minimal and simple hyprland config 
 
 ###### To do:
-* add my .bashrc
 * finish dependencies documentation
