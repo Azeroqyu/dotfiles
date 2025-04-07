@@ -1,5 +1,6 @@
 stow-git
 hyprland
+hyprshot
 hyprpaper
 mako
 neovim
@@ -14,4 +15,5 @@ zathura
 network-manager-applet
 xdg-desktop-portal-hyprland-git
 brightnessctl
-texlive
+latexmk
+npm
