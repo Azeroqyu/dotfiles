@@ -2,9 +2,9 @@
 {
     //"layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 15, // Waybar height (to be removed for auto height)
+    "height": 45, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 5, 
+    "spacing": 10, 
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
@@ -14,34 +14,15 @@
         "clock",
     ],
     "modules-right": [
-        "mpd",
         "idle_inhibitor",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
         "battery",
         "backlight-slider",
-        "battery#bat1",
         "tray",
         "custom/power"
     ],
-    // Modules configuration
-    // "hyprland/workspaces": {
-    //     "disable-scroll": true,
-    //     "all-outputs": true,
-    //     "warp-on-scroll": false,
-    //     "format": "{name}: {icon}",
-    //     "format-icons": {
-    //         "1": "",
-    //         "2": "",
-    //         "3": "",
-    //         "4": "",
-    //         "5": "",
-    //         "urgent": "",
-    //         "focused": "",
-    //         "default": ""
-    //     }
-    // },
     "backlight/slider": {
     "min": 0,
     "max": 100,
@@ -101,8 +82,8 @@
         }
     },
     "tray": {
-         // "icon-size": 21,
-        "spacing": 10
+         "icon-size": 21,
+        "spacing": 15
     },
     "clock": {
         // "timezone": "America/New_York",
