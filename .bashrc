@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
 ## Change directory aliases
 alias home='cd ~'
+alias h='cd ~'
+alias ..='cd ..'
 alias ls='lsd --color=auto'
 alias lh='lsd -a'
+alias h="history | grep "
 #neovim
 alias vi='nvim'
 alias vim='nvim'
 alias svi='sudo nvim'
-#Oil.nvim file browser
+#nvim file browser
 alias fb='nvim .'
 # To have colors for ls and all grep commands such as grep, egrep and zgrep
 export CLICOLOR=1
