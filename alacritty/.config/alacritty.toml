@@ -1,6 +1,8 @@
 general.import = [
   "~/.config/catppuccin-mocha.toml"
 ]
+[env]
+TERM = "xterm-256color"
 [font.normal]
 family = "FiraCode NerdFont"
 [window]

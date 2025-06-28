@@ -18,7 +18,8 @@ then
 you can use the simple install script provided:
 
     chmod -x install.sh
- then run the script
+
+then run the script
  
     ./install.sh
 

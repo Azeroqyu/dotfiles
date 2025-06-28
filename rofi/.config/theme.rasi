@@ -32,7 +32,7 @@ element-icon, element-text, scrollbar {
 
 window {
   location : northwest;
-  width    : 280px;
+  width    : 380px;
   x-offset : 4px;
   y-offset : 26px;
 
@@ -57,11 +57,11 @@ icon-search, entry, element-icon, element-text {
 icon-search {
   expand   : false;
   filename : "search-symbolic";
-  size     : 14px;
+  size     : 25px;
 }
 
 textbox {
-  padding          : 4px 8px;
+  padding          : 8px 16px;
   background-color : @bg2;
 }
 
@@ -75,8 +75,8 @@ listview {
 }
 
 element {
-  padding : 4px 8px;
-  spacing : 8px;
+  padding : 8px 16px;
+  spacing : 16px;
 }
 
 element normal urgent {
