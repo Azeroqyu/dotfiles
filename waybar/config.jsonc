@@ -1,10 +1,8 @@
 // -*- mode: jsonc -*-
 {
-    //"layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 45, // Waybar height (to be removed for auto height)
 
-    "spacing": 10, 
+    "spacing": 19, 
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
@@ -21,7 +19,8 @@
         "battery",
         "backlight-slider",
         "tray",
-        "custom/power"
+        "custom/power",
+        "custom/media",
     ],
     "backlight/slider": {
     "min": 0,
@@ -165,7 +164,7 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
+        "format": "{icon}  {volume}% {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
@@ -183,7 +182,7 @@
         "on-click": "pavucontrol"
     },
     "custom/media": {
-        "format": "{icon} {text}",
+        "format": "{0} {1}",
         "return-type": "json",
         "max-length": 40,
         "format-icons": {

@@ -4,7 +4,7 @@
     border-radius: 0px;
     /* `ttf-font-awesome` is required to be installed for icons */
     font-family: "Fira Code", Helvetica, Arial, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     min-height: 0;
 }
 window#waybar {
@@ -79,14 +79,14 @@ window#waybar.chromium {
 #mode,
 #idle_inhibitor,
 #mpd {
-    padding: 0 10px;
+    padding: 0 4px;
     margin: 6px 3px; 
     color: @crust;
 }
 
 #window,
 #workspaces {
-    margin: 0 4px;
+    margin: 0 2px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -223,7 +223,6 @@ label:focus {
 #mpd.paused {
     background-color: #51a37a;
 }
-
 #language {
     background: #bbccdd;
     color: #333333;

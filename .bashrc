@@ -2,9 +2,14 @@
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 ## Change directory aliases
-alias home='cd ~'
 alias h='cd ~'
 alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+
+#grep aliases
 alias ls='lsd --color=auto'
 alias lh='lsd -a'
 alias h="history | grep "
