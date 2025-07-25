@@ -1,5 +1,5 @@
 # Dotfiles
-A simple configuration and theming based on [catppuccin](https://github.com/catppuccin/catppuccin) 
+ simple configuration and theming based on [catppuccin](https://github.com/catppuccin/catppuccin) 
 ## Software 
 * Neovim, using  [kickstart-nvim](https://github.com/nvim-lua/kickstart.nvim) as a base
 * Alacritty
@@ -10,22 +10,15 @@ A simple configuration and theming based on [catppuccin](https://github.com/catp
 * Gnu stow
 #### Installation
 To install my dotfiles clone this repo in your home directory:
-``` bash
 
     git clone https://github.com/Azeroqyu/dotfiles && cd dotfiles 
 
-
-```
 you can use the simple install script provided:
- 
+
+
     ./install.sh
 
 
-
-##### Features 
-* Modular nvim comfig (kinda bloated)
-* minimal and simple hyprland config 
-
-###### To do:
+##### To do:
 * finish dependencies documentation
 
