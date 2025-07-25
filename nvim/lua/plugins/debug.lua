@@ -1,15 +1,5 @@
--- debug.lua
---
--- Shows how to use the DAP plugin to debug your code.
---
--- Primarily focused on configuring the debugger for Go, but can
--- be extended to other languages as well. That's why it's called
--- kickstart.nvim and not kitchen-sink.nvim ;)
---
 return {
-  -- NOTE: Yes, you can install new plugins here!
   'mfussenegger/nvim-dap',
-  -- NOTE: And you can specify dependencies as well
   dependencies = {
     -- Creates a beautiful debugger UI
     'rcarriga/nvim-dap-ui',
@@ -18,15 +8,14 @@ return {
     'nvim-neotest/nvim-nio',
 
     -- Installs the debug adapters for you
-    'williamboman/mason.nvim',
+    'mason-org/mason.nvim',
     'jay-babu/mason-nvim-dap.nvim',
 
     -- Add your own debuggers here
     'leoluz/nvim-dap-go',
-    'mfussenegger/nvim-dap-python',
   },
   keys = {
-    -- Basic debugging keymaps, feel free to change to your liking!
+    -- Basic debugging keymap
     {
       '<F5>',
       function()
@@ -69,7 +58,6 @@ return {
       end,
       desc = 'Debug: Set Breakpoint',
     },
-    -- Toggle to see last session result. Without this, you can't see session output in case of unhandled exception.
     {
       '<F7>',
       function()
@@ -96,7 +84,6 @@ return {
       ensure_installed = {
         -- Update this to ensure that you have the debuggers for the langs you want
         'delve',
-        'python',
       },
     }
 
@@ -146,6 +133,5 @@ return {
         detached = vim.fn.has 'win32' == 0,
       },
     }
-    require('dap-python').setup()
   end,
 }
