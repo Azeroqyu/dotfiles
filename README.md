@@ -10,24 +10,22 @@ A simple configuration and theming based on [catppuccin](https://github.com/catp
 * Gnu stow
 #### Installation
 To install my dotfiles clone this repo in your home directory:
+``` bash
 
-    git clone https://github.com/Azeroqyu/dotfiles
-then 
+    git clone https://github.com/Azeroqyu/dotfiles && cd dotfiles 
 
-    cd dotfiles
+
+```
 you can use the simple install script provided:
-
-    chmod -x install.sh
-
-then run the script
  
     ./install.sh
 
 
 
 ##### Features 
-* Nvim configured for java, c/c++, rust, python and LaTeX
+* Modular nvim comfig (kinda bloated)
 * minimal and simple hyprland config 
 
 ###### To do:
 * finish dependencies documentation
+
