@@ -12,6 +12,7 @@ local function open_float_file(file_path)
 
   if vim.fn.filereadable(expanded_path) == 0 then
     vim.notify('todo file does not exist at: ' .. expanded_path, vim.log.levels.ERROR)
+
     return
   end
 
@@ -20,8 +21,8 @@ local function open_float_file(file_path)
   end
 
   local function win_config()
-    local width = math.min(math.floor(vim.o.columns * 0.75), 60)
-    local height = math.floor(vim.o.lines * 0.75)
+    local width = math.min(math.floor(vim.o.columns * 85), 80)
+    local height = math.floor(vim.o.lines * 0.95)
 
     return {
       relative = 'editor',

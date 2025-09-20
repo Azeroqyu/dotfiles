@@ -12,7 +12,7 @@ add_newline = true
 format = 'on [$symbol($profile )(\($region\) )(\[$duration\])]($style)'
 symbol = '☁️  '
 style = 'bold yellow'
-disabled = false
+disabled = false 
 expiration_symbol = 'X'
 
 [aws.region_aliases]
@@ -53,9 +53,9 @@ detect_files = [
 detect_folders = []
 
 [character]
-format = '$symbol '
-success_symbol = '[╰─>](bold cyan)'
-error_symbol = '[╰─](bold red)[×](bold red)'
+format = '$symbol'
+success_symbol = '[λ ](#f5f0fa)'
+error_symbol = '[](bold red)[×](bold red)'
 disabled = false
 
 [cmake]
@@ -88,9 +88,9 @@ detect_folders = []
 
 [cmd_duration]
 show_milliseconds = true
-format = "took [$duration](bold yellow) "
-disabled = true
-show_notifications = true
+format = "took [$duration](#a97da9) "
+disabled = false
+show_notifications = false
 
 [conda]
 truncation_length = 1
@@ -152,7 +152,7 @@ truncation_length = 3
 truncate_to_repo = true
 fish_style_pwd_dir_length = 0
 use_logical_path = true
-format = '[$path](bold #89dceb)[$read_only](bold yellow) '
+format = '[$path](bold #f5f0fa)[$read_only](bold yellow) '
 repo_root_format = '[$before_root_path]($style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) '
 style = 'bold underline'
 disabled = false
@@ -367,7 +367,7 @@ disabled = true
 [hostname]
 ssh_only = false
 trim_at = '.'
-format = '[$hostname](#94e2d5) in '
+format = '[$hostname](#a97da9) in '
 style = 'bold'
 disabled = false
 
@@ -788,7 +788,7 @@ utc_time_offset = 'local'
 time_range = '-'
 
 [username]
-format = '[╭─](#b4befe)[$user](#b4befe)[@](bold)'
+format = '[$user](#e3d5e3)[@](bold)'
 style_root = 'bold'
 style_user = 'bold'
 show_always = true

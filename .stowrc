@@ -2,3 +2,5 @@
 --ignore=.stowrc
 --ignore=install.sh
 --ignore=backer.sh
+--ignore=dependencies.list
+

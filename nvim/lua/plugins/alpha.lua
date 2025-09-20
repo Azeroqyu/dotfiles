@@ -4,7 +4,7 @@ return {
   dependencies = {
     'nhattVim/alpha-ascii.nvim',
     opts = {
-      header = 'test',
+      header = 'swordfish',
       use_default = false,
       user_path = vim.fn.expand '~/.config/nvim/assets',
     },

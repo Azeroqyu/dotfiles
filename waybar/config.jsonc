@@ -2,14 +2,13 @@
 {
     "position": "top", // Waybar position (top|bottom|left|right)
 
-    "spacing": 19, 
+    "spacing": 20, 
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
     ],
     "modules-center": [
         "hyprland/window",
-        "clock",
     ],
     "modules-right": [
         "idle_inhibitor",
@@ -17,10 +16,9 @@
         "network",
         "power-profiles-daemon",
         "battery",
-        "backlight-slider",
         "tray",
+        "clock",
         "custom/power",
-        "custom/media",
     ],
     "backlight/slider": {
     "min": 0,
