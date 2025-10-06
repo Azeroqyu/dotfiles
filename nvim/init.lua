@@ -39,6 +39,5 @@ require('lazy').setup('plugins', {
   },
 })
 
--- colorscheme
-
+-- i use catpuccin with some colors overrides, your theme goes here
 vim.cmd 'colorscheme catppuccin-mocha'
