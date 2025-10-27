@@ -2,26 +2,26 @@
 #   man 5 mako
 # To view all configuration options.
 
-font=FiraCodeNerdFont
+font=IosevkaNerdFont
 format=<b>%a ⏵</b> %s\n%b
 sort=-time
 output=DP-2
 layer=overlay
 anchor=top-right
-background-color=#101010C0
+background-color=#0d0d14c0
 width=300
 height=110
 margin=5
 padding=0,5,10
-border-color=#ca9ee6
-border-radius=10
+border-color=#9873AC
+border-radius=5
 icons=0
 max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
 
 [urgency=normal]
-border-color=#cba6f7
+border-color=#9873AC
 [urgency=high]
 border-color=#8839ef
 default-timeout=0

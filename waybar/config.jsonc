@@ -1,9 +1,7 @@
 // -*- mode: jsonc -*-
 {
-    "position": "top", // Waybar position (top|bottom|left|right)
-
-    "spacing": 20, 
-    // Choose the order of the modules
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    "spacing": 23, 
     "modules-left": [
         "hyprland/workspaces",
     ],
@@ -11,14 +9,15 @@
         "hyprland/window",
     ],
     "modules-right": [
-        "idle_inhibitor",
+        "backlight",
+	"clock",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
-        "battery",
         "tray",
-        "clock",
-        "custom/power",
+        "power-profiles-daemon",
+	"battery",
+        "custom/power"
+	,
     ],
     "backlight/slider": {
     "min": 0,
@@ -83,7 +82,6 @@
         "spacing": 15
     },
     "clock": {
-        // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },

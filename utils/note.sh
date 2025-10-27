@@ -1,9 +1,6 @@
 #!/bin/bash
 
-# this makes a latex file for note taking
-
 AUTHOR=$(whoami)
-
 
 read -p "File name> " filename 
 
@@ -18,11 +15,18 @@ cat <<EOF > "${filename}.tex"
 \usepackage{xcolor}
 \usepackage[portuguese]{babel}
 \usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[a4paper, left=0.6in,right=0.6in,top=0.6in,bottom=0.9in,includeheadfoot]{geometry}
+\rhead{\LARGE $\mathbf{\lambda}$}
+\pagestyle{fancy}
 \date{\today}
 \author{${AUTHOR}}
 \title{${filename}}
 \begin{document}
+\maketitle
+\pagebreak
 \section{Introduction}
+
 
 
 

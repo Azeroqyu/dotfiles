@@ -8,6 +8,9 @@ rofi-wayland
 waybar
 alacritty
 blueman
+nwg-look
+qt5ct
+qt6ct
 kdeconnect
 cliphist
 ttf-fira-code
@@ -17,4 +20,4 @@ wl-clipboard
 xdg-desktop-portal-hyprland-git
 brightnessctl
 latexmk
-npm
+tree-sitter-cli
