@@ -9,7 +9,7 @@
 }
 
 window#waybar {
-	background-color: @crust;
+	background-color: @bg0;
 	color: #ffffff;
 }
 
@@ -20,7 +20,7 @@ window#waybar {
 }
 
 #workspaces button:hover {
-	background: @crust;
+	background: @bg0;
 	box-shadow: inset 0 -3px #ffffff;
 }
 
@@ -63,24 +63,24 @@ window#waybar {
 }
 
 #clock {
-	background-color: @crust;
+	background-color: @bg0;
 	color: white;
 }
 
 #battery {
-	background-color: @crust;
+	background-color: @bg0;
 	color: white;
 }
 
 #battery.charging {
 	color: #ffffff;
-	background-color: @crust;
+	background-color: @bg0;
 }
 
 @keyframes blink {
 	to {
 		background-color: #ffffff;
-		color: @crust;
+		color: @bg0;
 	}
 }
 
@@ -99,26 +99,26 @@ battery.bat0 {
 }
 
 label:focus {
-	background-color: @crust;
+	background-color: @bg0;
 }
 
 #cpu {
-	background-color: @crust;
+	background-color: @bg0;
 	color: #ffffff;
 }
 
 #memory {
-	background-color: @crust;
+	background-color: @bg0;
 	color: white;
 }
 
 #backlight {
-	background-color: @crust;
+	background-color: @bg0;
 	color: white;
 }
 
 #network {
-	background-color: @crust;
+	background-color: @bg0;
 	color: white;
 
 }
@@ -128,12 +128,12 @@ label:focus {
 }
 
 #pulseaudio {
-	background-color: @crust;
+	background-color: @bg0;
 	color: #ffffff;
 }
 
 #pulseaudio.muted {
-	background-color: @crust;
+	background-color: @bg0;
 	color: #ffffff;
 }
 

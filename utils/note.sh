@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 AUTHOR=$(whoami)
 
@@ -25,7 +25,7 @@ cat <<EOF > "${filename}.tex"
 \begin{document}
 \maketitle
 \pagebreak
-\section{Introduction}
+\section{}
 
 
 

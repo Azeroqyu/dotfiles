@@ -75,4 +75,7 @@ return {
       }
     end,
   },
+  {
+    dir = '~/projects/lua/cozy-dark/',
+  },
 }

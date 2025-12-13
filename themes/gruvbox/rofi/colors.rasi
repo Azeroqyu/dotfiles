@@ -1,0 +1,22 @@
+*{
+  font:   "Iosevka Nerd Font Medium 11";
+  bg0     : #282828;
+  bg1     : #282828;
+  bg2     : #504945;
+  bg3     : #665c54;
+  fg0     : #fbf1c7;
+  fg1     : #ebdbb2;
+  fg2     : #d5c4a1;
+  lilac   : #B69CCF;
+  green   : #98871a;
+  yellow  : #fabd2f;
+   magenta :#A300A3;
+  cyan    : #458588;
+  accent: @fg2;
+  urgent: @yellow;
+  background-color : transparent;
+  text-color       : @fg0;
+  margin  : 0;
+  padding : 0;
+  spacing : 0;
+}
