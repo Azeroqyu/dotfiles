@@ -1,22 +1,35 @@
 #!/usr/bin/env bash
-echo "installing dependencies..."
 
-# switch yay to your pkg manager 
-#
-yay -S --noconfirm --needed - < dependencies.list
+backup() {
+    DOTS=("hypr" "nvim" "waybar" "rofi" "ghostty" "alacritty" "mako" "utils" "themes")
+    HOME_FILES=(".tmux.conf" ".bashrc")
+    
+    mkdir -p ~/.config/backup
+    
+    for dir in "${DOTS[@]}"; do
+        mv ~/.config/"$dir" ~/.config/backup/ 
+    done
+    
+    for file in "${HOME_FILES[@]}"; do
+        mv ~/"$file" ~/.config/backup/
+    done
+    
+    mv ~/.config/starship.toml ~/.config/backup/ 
+}
 
-read -p "would you like to apply my theming? [Y/n]" yn
-case $yn in
-	[yY] )	echo "Proceeding with instalation...";
-		stow .
-		exit 0
-		;;
-	[nN] )	echo "Instalation cancelled, exiting...";
-		exit 0
-		;;
-	*)	echo "Proceeding with instalation...";
-		stow .
-		exit 0
-		;;
+case "$1" in
+    backup)
+        backup
+        ;;
+    install)
+        backup
+        [ -x "$(command -v yay)" ] && yay -S --noconfirm --needed - < dependencies.list
+        stow .
+        stow --dotfiles --target="$HOME" bashrc
+        echo "Done."
+        ;;
+    *)
+        echo "Usage: $0 {backup|install}"
+        exit 1
+        ;;
 esac
-
